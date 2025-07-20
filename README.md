@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### 2. **Set Environment Variables**
 
-Create a `.env` file in your project root with your API keys:
+Create a `.streamlit` folder in your project root and create this file `secrets.toml` in that folder with your API keys:
 
 ```
 PINECONE_API_KEY=your-pinecone-api-key
